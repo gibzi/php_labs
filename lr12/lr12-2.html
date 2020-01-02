@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Circle</title>
+<style>
+   body {
+    background: url(wom.gif);
+    color: #fff;   }
+</style>
+</head>
+<body>
+
+<form method="post" action="lr12-2.php">
+   
+  <b>x:</b><br>
+  <input name="x" type="number" min="0" ><br>
+    
+  <b>y:</b><br>
+  <input name="y" type="number" min="0" ><br>
+
+   <b>Circle radius:</b><br>
+   <input name="radius" type="number" min="1" ><br>   
+   
+   <b>Outline color:</b>
+     <i>R</i>
+      <input name="color-borderR" type="number" min="0" max="255">
+        <i>G</i>
+      <input name="color-borderG" type="number" min="0" max="255">
+        <i>B</i>
+      <input name="color-borderB" type="number" min="0" max="255">
+       <br>
+  
+  <b>Type of line:</b><br>
+    <i>1 - Solid </i><br>
+    <i>2 - Dotted </i><br>
+    <i>3 - _._._ </i><br>
+   <input name="type-line" type="number" min="1" max="3" value="1"> <br>
+    
+   <b>Fill color:</b>
+    <i>R</i>
+      <input name="colorR" type="number" min="0" max="255">
+        <i>G</i>
+      <input name="colorG" type="number" min="0" max="255">
+        <i>B</i>
+      <input name="colorB" type="number" min="0" max="255">
+   <br> 
+   
+   <b>Толщина контура:</b>
+   <input name="tol-border" type="number"> <br>
+   <br>
+   
+   <input type=submit value="Submit"></form>
+
+</body>
+</html>
